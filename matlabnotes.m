@@ -751,6 +751,13 @@ nonexistent row/column. Good practise: Use 3i rather than
 been overwritten by earlier. 1/0 returns inf, not NaN. Dont
 use == for comparing doubles, they are floating point
 precision for example: 0:01 == (1 − 0:99) = 0.
+
+%-------------------------------------------------------------------------
+%  Special Matlab Functions
+%-------------------------------------------------------------------------
+% 1. conv2
+% 2. fspecial
+
 %-------------------------------------------------------------------------
 %                                 ~END~
 %-------------------------------------------------------------------------
